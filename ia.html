@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleia.css">
+    <title>Inteligência Artificial</title>
+</head>
+<body>
+    
+    <header>
+        <div class="interface">
+
+            <div class="logo">
+                <a href="ia.html">
+                    <img src="img/ia.png" class="filter-image" width="70" height="60" alt="IA">
+                </a>
+            </div>
+
+            <ul>
+            <div class="filter-section">
+                <label for="color-filter">Filtro de Daltonismo:</label>
+                <select id="color-filter" class="filter-dropdown">
+                    <option value="default">Cores padrão</option>
+                    <option value="achromatomaly">Acromatopsia</option>
+                    <option value="deuteranomaly">Deuteranomalia</option>
+                    <option value="tritanomaly">Tritanomalia</option>
+                    <option value="Acromatomia">Acromatomia</option>
+                    <option value="Deuteranopia">Deuteranopia</option>
+                    <option value="Protanopia">Protanopia</option>
+                </select>
+            </ul>
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="index.html">SCRATCHERS</a></li>
+                    <li><a href="ia.html">IA</a></li>
+                </ul>
+            </nav>
+
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+            </div><!--menu-mobile-->
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div><!--interface-->
+
+    </header>
+
+    <div id="contrastOptions" class="contrast-options">
+        <button id="blackAndWhite">Alto Contraste</button>
+        <button id="highContrast">Preto e Branco</button>
+        <button id="blueContrast">Azul</button>
+        <button id="greenContrast">Verde</button>
+        <button id="yellowContrast">Amarelo</button>
+    </div>
+
+    <div id="fontOptions" class="font-options">
+        <button id="increaseFont">+Aa</button>
+        <button id="decreaseFont">-Aa</button>
+    </div>
+
+    <main>
+        
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>INTELIGÊNCIA ARTIFICIAL<span>:</span></h1>
+                        <p>A inteligência artificial está revolucionando o mundo ao transformar a maneira como interagimos com a tecnologia, automatizando tarefas complexas e proporcionando soluções inovadoras para desafios globais.</p>
+                    </div><!--txt-topo-site-->
+                    <div class="img-topo-site">
+                        <img src="img/9888073.png" class="filter-image" alt="">
+                    </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section class="especiliadades">
+            <div class="interface">
+                <h2 class="titulo">ALGUMAS <span>FERRAMENTAS:</span></h2>
+                <div class="flex">
+                    <a href="https://chat.openai.com/">
+                        <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <img src="img/chatgpt.webp" width="97" height="100" alt="" class="filter-image">
+                        <h3>ChatGPT</h3>
+                        <p>ChatGPT é um sistema desenvolvido pela OpenAI, que serve para gerar uma conversa onde
+                            o assistente é capaz de responder perguntas, fornecer informações, dialogar e muito mais,
+                            independente do tema, dúvida ou idioma.</p>
+                    </div><!--especialidades-box-->
+                    </a>
+
+                    <a href="https://copilot.microsoft.com/">
+                        <div class="especialidades-box">
+                            <i class="bi bi-cart"></i>
+                            <img src="img/copilot-symbol.png" width="100" height="100" alt="" class="filter-image">
+                            <h3>Copilot</h3>
+                            <p>Copilot é um sistema desenvolvido pela GitHub junto a OpenAI, que funciona como um
+                                assistente de programação para os desenvolvedores, fornecendo sugestões de código,
+                                funções ou até mesmo fornecendo soluções para problemas específicos.
+                                </p>
+                        </div><!--especialidades-box-->
+                    </a>
+                    
+                    <a href="https://gemini.google.com/app?hl=pt-BR">
+                        <div class="especialidades-box">
+                            <i class="bi bi-wordpress"></i>
+                            <img src="img/gemini.png" width="100" height="100" alt="" class="filter-image">
+                            <h3>Gemini</h3>
+                            <p>Gemini é um sistema desenvolvido pela Google, projetado para ser um assistente
+                                multimodal, servindo para fornecer de texto e imagens a códigos de software e pesquisas
+                                na web e muito mais. Possuindo 3 versões: Nano, Pro e Ultra.
+                                </p>
+                        </div><!--especialidades-box-->
+                    </a>
+
+                </div><!--flex-->
+
+                <div class="flex">
+                    <a href="https://www.chatpdf.com/">
+                        <div class="especialidades-box">
+                            <i class="bi bi-code-square"></i>
+                            <img src="img/chatpdf.avif" width="97" height="100" alt="" class="filter-image">
+                            <h3>ChatPDF</h3>
+                            <p>O ChatPDF é um conversor de PDFs em texto, que facilita a manipulação e extração de
+                                informações desses arquivos. O texto extraído do PDF pode ser editado e possivelmente
+                                exportar o texto convertido para outros formatos e locais.
+                                </p>
+                        </div><!--especialidades-box-->
+                    </a>
+
+                    <a href="https://suno.com/">
+                        <div class="especialidades-box">
+                            <i class="bi bi-cart"></i>
+                            <img src="img/suno.png" width="100" height="100" alt="" class="filter-image">
+                            <h3>Suno AI</h3>
+                            <p>Suno AI é um gerador de músicas com IA, projetado para gerar músicas realistas e únicas
+                                combinando vozes e instrumentos, dos mais diversos estilos. Com comandos de texto e sua
+                                interface simples, qualquer pessoa pode utilizar.
+                                </p>
+                        </div><!--especialidades-box-->
+                    </a>
+
+                    <a href="https://deepai.org/">
+                        <div class="especialidades-box">
+                            <i class="bi bi-wordpress"></i>
+                            <img src="img/deep.svg" width="100" height="100" alt="" class="filter-image">
+                            <h3>Deep AI</h3>
+                            <p>A DeepAI oferece ferramentas com IA, como geração de texto, imagens, vídeos,
+                                personagens famosos e fictícios, removedor de fundo, editor de imagens, música e muito
+                                mais. Tendo uma ampla gama de serviços com uma interface simples e aprimorada.</p>
+                        </div><!--especialidades-box-->
+                    </a>
+
+                    
+                </div><!--flex-->
+
+                <div class="flex">
+                    <a href="https://leonardo.ai/">
+                        <div class="especialidades-box">
+                            <i class="bi bi-code-square"></i>
+                            <img src="img/leonardoai.png" width="100" height="100" alt="" class="filter-image">
+                            <h3>Leonardo AI</h3>
+                            <p>Leonardo AI é um gerador de imagens baseado em IA e com focos na criação de imagens e
+                                texturas para jogos. Desenvolvido para facilitar o trabalho de artistas, designers e
+                                desenvolvedores por meio de comandos ou instruções.</p>
+                        </div><!--especialidades-box-->
+                    </a>
+
+                    <a href="https://consensus.app/">
+                        <div class="especialidades-box">
+                            <i class="bi bi-cart"></i>
+                            <img src="img/Consensus.png" width="100" height="100" alt="" class="filter-image">
+                            <h3>Consensus</h3>
+                            <p>Consensus é uma ferramenta que usa IA para auxiliar usuários a encontrarem artigos
+                                acadêmicos, extraindo informações relevantes, dando resultados flexíveis e relevantes.
+                                Possibilitando salvar artigos para ler depois, criar citações e compartilhar artigos.
+                                </p>
+                        </div><!--especialidades-box-->
+                    </a>
+
+                    <a href="https://scispace.com/">
+                        <div class="especialidades-box">
+                            <i class="bi bi-wordpress"></i>
+                            <img src="img/Scispace.png" width="100" height="100" alt="" class="filter-image">
+                            <h3>Scispace</h3>
+                            <p>Scispace é uma ferramenta de IA para ajudar pesquisadores e estudantes a entender
+                                artigos de pesquisa com rapidez e facilidade, e com a ferramenta de acompanhamento,
+                                entender um texto confuso, fórmulas e muito mais se tornou fácil.
+                                </p>
+                        </div><!--especialidades-box-->
+                    </a>
+                    
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--especiliadades-->
+    </main>
+
+    <footer>
+            <p><i class="bi bi-envelope-fill"></i>© 2024 | Desenvolvido por Ana Laura, Ana Nicolly e Caio Henrique | IAs</p>
+    </footer>
+  </div>
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+    </div>
+</div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <script src="script.js"></script>
+
+
+</body>
+</html>

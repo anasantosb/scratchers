@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light">
+<head>
+    <title>Scratchers</title>
+    <link rel="shortcut icon" href="./img/gatinho.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="content">
+    <header>
+        <img src="./img/gatinho.png" width="150" height="150" onclick="window.open('index.html')" class="filter-image">
+        <div class="filter-section">
+            <label for="color-filter">Filtro de Daltonismo:</label>
+            <select id="color-filter" class="filter-dropdown">
+                <option value="default">Cores padrão</option>
+                <option value="achromatomaly">Acromatopsia</option>
+                <option value="deuteranomaly">Deuteranomalia</option>
+                <option value="tritanomaly">Tritanomalia</option>
+                <option value="Acromatomia">Acromatomia</option>
+                <option value="Deuteranopia">Deuteranopia</option>
+                <option value="Protanopia">Protanopia</option>
+            </select>
+        </div>
+        <nav id="menu"> 
+            <a href="index.html">
+                <div class="pages">SCRATCHERS</div> 
+            </a>
+            <a href="ia.html">
+                <div class="pages">IAS</div> 
+            </a>
+        </nav>
+    </header>
+    <div id="contrastOptions" class="contrast-options">
+        <button id="blackAndWhite">Alto Contraste</button>
+        <button id="highContrast">Preto e Branco</button>
+        <button id="blueContrast">Azul</button>
+        <button id="greenContrast">Verde</button>
+        <button id="yellowContrast">Amarelo</button>
+    </div>
+    <div id="fontOptions" class="font-options">
+        <button id="increaseFont">+Aa</button>
+        <button id="decreaseFont">-Aa</button>
+    </div>
+    <div id="main">
+        <div id="titulo">  
+            <h1>SCRATCH - APRENDA A PROGRAMAR COM BLOCOS!</h1>        
+        </div>
+    </div>
+    <br>
+    <div id="apresentação">
+        <img src="./img/apresentação scratch.jpg" width="500" height="350" class="filter-image">
+            <p>O Scratch é uma plataforma gratuita de programação visual desenvolvida pelo MIT. 
+               Ideal para crianças e iniciantes, permite criar histórias, jogos e animações de forma intuitiva e divertida. 
+               Com o Scratch, você desenvolve habilidades de lógica, criatividade e resolução de problemas enquanto 
+               compartilha suas criações com uma comunidade global.
+            </p>
+            <img src="./img/scratch2-removebg-preview__1_-removebg-preview.png" class="corner-image">
+    </div>
+    <div class="projetos">
+        <div class="projeto">
+            <h2>Lógica de programação</h2>
+            <br>
+            <img src="./img/tópico 1 do scratch.webp" alt="" width="500px" class="filter-image">
+            <br>
+            <p>Apresentação sobre o Scratch e suas funcionalidades</p>
+            <a href="lp.html"><button class="entrar">ENTRAR</button></a>
+        </div>
+        <div class="projeto">
+            <h2>Jogos</h2>
+            <br>
+            <img src="./img/Grupo-2489.png" alt="" width="500px" class="filter-image">
+            <br>
+            <p>3 jogos na plataforma scratch, com 3 níveis diferentes de dificuldade</p>
+            <a href="jogos.html"><button class="entrar">ENTRAR</button></a>
+        </div>
+    </div>
+    
+    <footer>© 2024 | Desenvolvido por Ana Laura, Ana Nicolly e Caio Henrique | Scratchers</footer>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>

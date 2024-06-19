@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light">
+<head>
+    <title>Scratchers</title>
+    <link rel="shortcut icon" href="./img/gatinho.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="content">
+    <header>
+        <img src="./img/gatinho.png" width="150" height="150" onclick="window.open('index.html')" class="filter-image">
+        <div class="filter-section">
+            <label for="color-filter">Filtro de Daltonismo:</label>
+            <select id="color-filter" class="filter-dropdown">
+                <option value="default">Cores padrão</option>
+                <option value="achromatomaly">Acromatopsia</option>
+                <option value="deuteranomaly">Deuteranomalia</option>
+                <option value="tritanomaly">Tritanomalia</option>
+                <option value="Acromatomia">Acromatomia</option>
+                <option value="Deuteranopia">Deuteranopia</option>
+                <option value="Protanopia">Protanopia</option>
+            </select>
+        </div>
+        <nav id="menu"> 
+            <a href="index.html">
+                <div class="pages">SCRATCHERS</div> 
+            </a>
+            <a href="ia.html">
+                <div class="pages">IAS</div> 
+            </a>
+        </nav>
+    </header>
+    <div id="contrastOptions" class="contrast-options">
+        <button id="blackAndWhite">Alto Contraste</button>
+        <button id="highContrast">Preto e Branco</button>
+        <button id="blueContrast">Azul</button>
+        <button id="greenContrast">Verde</button>
+        <button id="yellowContrast">Amarelo</button>
+    </div>
+    <div id="fontOptions" class="font-options">
+        <button id="increaseFont">+Aa</button>
+        <button id="decreaseFont">-Aa</button>
+    </div>
+    <div id="main">
+        <div id="titulo">  
+            <h1>3 Jogos diferentes do Scratch, confira e se sinta um Scratcher!</h1>        
+        </div>
+    </div>
+    <br>
+    <div class="projetos">
+        <div class="projeto">
+            <h2>Fácil</h2>
+            <br>
+            <img src="./img/fruits memory.png" alt="" width="500px" class="filter-image">
+            <br>
+            <p>Jogo da memória:
+                Teste suas habilidades de memória com o Fruits Memory! Aprenda sobre os hardwares um computador em níveis diferentes de dificuldade e de uma forma diferente!</p>
+            <a href="https://scratch.mit.edu/projects/731715680"><button class="entrar">Confira!</button></a>
+        </div>
+        <div class="projeto">
+            <h2>Médio</h2>
+            <br>
+            <img src="./img/faster.png" alt="" width="500px" class="filter-image">
+            <br>
+            <p>Faster:
+                Com o Faster, utilize sua agilidade e foco como peça chave para ganhar! Jogue contra seu amigo e veja quem acertará mais cores, em diferentes níveis de fase!</p>
+            <a href="https://scratch.mit.edu/projects/724634494"><button class="entrar">ENTRAR</button></a>
+        </div>
+    </div>
+    <div class="projetos">
+        <div class="projeto">
+            <h2>Difícil</h2>
+            <br>
+            <img src="./img/guitar hero.png" alt="" width="500px" class="filter-image">
+            <br>
+            <p>Guitar Hero:
+                Já sonhou em ser um mestre na guitarra e tocar rock? Com este jogo com diversas bandas icônicas e suas músicas de sucesso, se torne um guitarrista, acertando todas as notas, possuindo vários níveis de dificuldade!</p>
+            <a href="https://scratch.mit.edu/projects/745861471"><button class="entrar">ENTRAR</button></a>
+        </div>
+    </div>
+
+    <div class="back-button-container">
+        <button class="back-button" onclick="window.history.back();">Voltar</button>
+    </div>
+
+    <br>
+
+    
+    <footer>© 2024 | Desenvolvido por Ana Laura, Ana Nicolly e Caio Henrique | Scratchers</footer>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

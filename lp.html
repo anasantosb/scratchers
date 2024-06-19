@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light">
+<head>
+    <title>Scratchers</title>
+    <link rel="shortcut icon" href="./img/gatinho.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="content">
+    <header>
+        <img src="./img/gatinho.png" width="150" height="150" onclick="window.open('index.html')" class="filter-image">
+        <div class="filter-section">
+            <label for="color-filter">Filtro de Daltonismo:</label>
+            <select id="color-filter" class="filter-dropdown">
+                <option value="default">Cores padrão</option>
+                <option value="achromatomaly">Acromatopsia</option>
+                <option value="deuteranomaly">Deuteranomalia</option>
+                <option value="tritanomaly">Tritanomalia</option>
+                <option value="Acromatomia">Acromatomia</option>
+                <option value="Deuteranopia">Deuteranopia</option>
+                <option value="Protanopia">Protanopia</option>
+            </select>
+        </div>
+        <nav id="menu"> 
+            <a href="index.html">
+                <div class="pages">SCRATCHERS</div> 
+            </a>
+            <a href="ia.html">
+                <div class="pages">IAS</div> 
+            </a>
+        </nav>
+    </header>
+    <div id="contrastOptions" class="contrast-options">
+        <button id="blackAndWhite">Alto Contraste</button>
+        <button id="highContrast">Preto e Branco</button>
+        <button id="blueContrast">Azul</button>
+        <button id="greenContrast">Verde</button>
+        <button id="yellowContrast">Amarelo</button>
+    </div>
+    <div id="fontOptions" class="font-options">
+        <button id="increaseFont">+Aa</button>
+        <button id="decreaseFont">-Aa</button>
+    </div>
+    <div id="main">
+        <div id="titulo">  
+            <h1>O que é lógica de programação em bloco?</h1>        
+        </div>
+    </div>
+    <br>
+    <div id="apresentação">
+        <img src="./img/scratch-removebg-preview.png" class="filter-image">
+            <p>A lógica de programação em bloco, especialmente no contexto do Scratch, é uma
+                abordagem visual para ensinar e aprender programação para iniciantes e amplamente
+                usada na educação. Em vez de escrever o código textual, os usuários montam programas
+                arrastando e soltando blocos, que são coloridos e com formas específicas, representam
+                diferentes instruções e estruturas de controle e são arrastados e conectados na área de
+                programação, tornando o processo intuitivo e acessível. Existem blocos de ação (para
+                tarefas), de controle (loops e condicionais), de dados (variáveis e listas) e de eventos
+                (resposta a cliques ou teclas).
+            </p>
+            <img src="./img/scratch2-removebg-preview__1_-removebg-preview.png" class="corner-image">
+    </div>
+    <div class="projetos">
+        <div class="projeto">
+            <p>Os <span>blocos de comando do Scratch</span> são categorias de instruções que os usuários podem
+                usar para criar scripts. Estes blocos <span>permitem a criação de programas complexos</span> de
+                maneira intuitiva e visual, facilitando o aprendizado de conceitos de programação.</p>
+            <p>Aqui estão os nove tipos de blocos de comando do Scratch: <br>
+                <br>
+                <span>Movimento: </span>Controla o movimento dos atores. <br>
+                <span>Som: </span>Controla os sons tocados pelos atores. <br>
+                <span>Eventos: </span>Dispara scripts em resposta a eventos. <br>
+                <span>Controle: </span>Controle de fluxo como loops e condicionais. <br>
+                <span>Sensores: </span>Detecta condições no ambiente do Scratch. <br>
+                <span>Operadores: </span>Realiza operações matemáticas e lógicas. <br>
+                <span>Variáveis: </span>Armazena e manipula dados. <br>
+                <span>Meus Blocos: </span>Permite criar blocos personalizados.</p>
+        </div>
+
+        
+    </div>
+
+    <div class="back-button-container">
+        <button class="back-button" onclick="window.history.back();">Voltar</button>
+    </div>
+
+    <br>
+
+    
+    <footer>© 2024 | Desenvolvido por Ana Laura, Ana Nicolly e Caio Henrique | Scratchers</footer>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
